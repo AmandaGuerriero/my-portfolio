@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
-import Nav from './components/Nav';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+        <Header />
+        <Footer />
     </div>
   );
 }
