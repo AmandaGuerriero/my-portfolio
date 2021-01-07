@@ -10,17 +10,6 @@ function App() {
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Nav>
-      {/* <main>
-        <div>
-        {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-            <ContactForm></ContactForm>
-          )}
-        </div>
-      </main> */}
     </div>
   );
 }
