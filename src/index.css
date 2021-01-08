@@ -120,7 +120,7 @@ h2 {
 }
 
 .page-section > div {
-  flex: 0 0 77%;
+  flex: 0 0 95%;
 }
 
 .page-section p {
@@ -138,7 +138,7 @@ h2 {
   /* 12 column grid */
   grid-template-columns: repeat(12, 1fr);
   /* Set each row to be atleast 150px tall and a max of 1fr */
-  grid-auto-rows: minmax(150px, 1fr);
+  grid-auto-rows: minmax(200px, 1fr);
 }
 
 .grid-item {
@@ -156,11 +156,6 @@ h2 {
   transition: all 0.5s;
   font-size: 0.9rem;
 }
-
-/* .grid-item:first-child {
-  grid-column: span 8;
-  grid-row: span 2;
-} */
 
 .grid-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
@@ -195,7 +190,11 @@ h2 {
 
 .grid-item.work-5 {
   background-image: url(./images/password.png);
-} 
+}
+
+.grid-item.work-6 {
+  background-image: url(./images/team-profile.png);
+}
 /* Grid Styles End */
 
 /* Contact Me Styles Start */

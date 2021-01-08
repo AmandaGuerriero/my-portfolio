@@ -4,7 +4,6 @@ function Project(props) {
     return (
         <section class="page-section" id="work">
             <div class="grid-container">
-
                 <a href="http://bossy-bartender.herokuapp.com/" target="_blank" class="grid-item work-1">
                     <div>
                         <h3>Bossy Bartender</h3>
@@ -33,6 +32,12 @@ function Project(props) {
                     <div>
                         <h3>Password Generator</h3>
                         <span>JS/Prompts</span>
+                    </div>
+                </a>
+                <a href="https://github.com/AmandaGuerriero/team-profile-generator/" target="_blank" class="grid-item work-6">
+                    <div>
+                        <h3>Team Profile Generator</h3>
+                        <span>Node JS/Inquirer</span>
                     </div>
                 </a>  
             </div>
