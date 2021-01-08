@@ -12,6 +12,9 @@ function Nav(props) {
           <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
               About me
             </a>
+            {/* <Router>
+                <Route path='/' component={Project} />
+            </Router> */}
           </li>
           <li className="mx-2">Portfolio</li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>

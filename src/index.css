@@ -70,38 +70,6 @@ header nav ul li:hover {
 }
 /* Header Styles End */
 
-/* Hero Styles Start */
-.hero {
-  background-image: url(./images/lights.jpg);
-  background-size: cover;
-  background-position: 70%;
-  height: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: flex-end;
-  background-attachment: fixed;
-  margin-bottom: 20px;
-}
-
-.hero-phrase h2 {
-  background-color: var(--teal-blue);
-  opacity: .95;
-  padding: 5px 10px;
-  box-sizing: content-box;
-  width: 100%;
-  color: var(--primary-text-color);
-  text-shadow: 0 2px 10px rgba(var(--black-rgb), 0.5);
-  text-align: center;
-  font-size: 30px;
-}
-
-.hero-phrase {
-  padding-right: 12%;
-  padding-bottom: 20px;
-}
-/* Hero Styles End */
-
 /* Global Section Styles Start */
 h2 {
   color: var(--section-header);
@@ -165,6 +133,7 @@ h2 {
   display: grid;
   column-gap: 10px;
   row-gap: 10px;
+  padding-left: 100px;
   grid-auto-flow: dense;
   /* 12 column grid */
   grid-template-columns: repeat(12, 1fr);
@@ -177,7 +146,7 @@ h2 {
   grid-column: span 4;
   color: var(--primary-text-color);
   background-color: darkgray;
-  min-height: 150px;
+  min-height: 300px;
   display: flex;
   align-items: flex-end;
   padding: 0px 0 20px 0;
@@ -188,10 +157,10 @@ h2 {
   font-size: 0.9rem;
 }
 
-.grid-item:first-child {
+/* .grid-item:first-child {
   grid-column: span 8;
   grid-row: span 2;
-}
+} */
 
 .grid-item:hover {
   background-color: rgba(0, 0, 0, 0.3);

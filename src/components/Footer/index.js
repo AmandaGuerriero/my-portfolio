@@ -6,10 +6,10 @@ function Footer(props) {
             <div class="contact-info">
                 <ul>
                     <li>
-                        <a href="mailto:amanda.guerriero@yahoo.com">Email</a>
+                        <a href="https://github.com/AmandaGuerriero" target="_blank">GitHub</a>
                     </li>
                     <li>
-                        <a href="https://github.com/AmandaGuerriero" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/amanda-guerriero-29377447/" target="_blank">Linkedin</a>
                     </li>
                 </ul>
             </div>
