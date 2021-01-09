@@ -225,6 +225,10 @@ h2 {
   color: var(--section-header);
 }
 
+.contact-button {
+  background-color: var(--teal-blue);
+}
+
 /* Footer Styles Start */
 footer {
   background: var(--teal-blue);
