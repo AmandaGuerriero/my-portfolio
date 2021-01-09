@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import Project from '../Project';
 
 function Resume(props) {
     return (
-        <div>Placeholder</div>
+        <section class="page-section">
+            <h2>Resume</h2>
+        </section>
     );
 }
 
