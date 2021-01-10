@@ -28,31 +28,30 @@ function Contact() {
         e.preventDefault();
     }
     return (
-        <section class="page-section" id="contact">
-            <h2>Contact Me</h2>
+        <section className="page-section contact">
+            <h3>Contact Me</h3>
             <form id="contact-form" onSubmit={handleSubmit}>
-             <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" class="form-control" defaultValue={name} onBlur={handleChange} name="name" />
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" class="form-control" defaultValue={email} name="email" onBlur={handleChange} />
-                    </div>
-            </div>
-                <div>
-                    <div class="form-row">
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onBlur={handleChange} rows="3" />
-                    </div>
-                </div>
+             <div className="form-group">
+                    <label htmlFor="inputEmail">Name:</label>
+                    <input type="text" className="form-control" defaultValue={name} onBlur={handleChange} name="name" />
+            </div><br />
+            <div className="form-group">
+                <label htmlFor="email">Email:</label>
+                <input type="email" className="form-control" defaultValue={email} name="email" onBlur={handleChange} />
+            </div><br /> 
+            <div className="form-group">
+                <label htmlFor="message">Message:</label>
+                <textarea name="message" className="form-control" defaultValue={message} onBlur={handleChange} rows="3" />
+            </div><br/>
+                
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit" class="btn contact-button">Submit</button>
+                <div clasName="button-div">
+                    <button type="submit" className="btn contact-button">Submit</button>
+                </div>
             </form>
         </section>
     );
