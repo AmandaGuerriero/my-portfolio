@@ -82,18 +82,21 @@ header nav ul li a:hover  {
 /* Header Styles End */
 
 /* Global Section Styles Start */
-.page-section > h2 {
+/* .page-section > h2 {
   border-right: none;
-  border-bottom: 4px solid var(--section-header);
   margin-bottom: 20px;
   text-align: center;
-  padding-bottom: 10px;
-  font-size: 7vw;
-}
+} */
 
-#contact {
-  display: block;
-  width: 25%;
+.page-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--section-header);
+  border-bottom: 4px solid var(--section-header);
+  font-size: 4vw;
+  padding-bottom: 10px;
+  line-height: 1.1;
 }
 
 .page-wrapper {
@@ -109,16 +112,7 @@ header nav ul li a:hover  {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
-  justify-content: space-between;
-}
-
-.page-section > h2 {
-  flex: 0 0 20%;
-  text-align: right;
-  padding-right: 15px;
-  border-right: 4px solid var(--section-header);
-  font-size: 4vw;
-  line-height: 1.1;
+  /* justify-content: space-between; */
 }
 
 .page-section > div {
@@ -221,6 +215,67 @@ header nav ul li a:hover  {
 /* Grid Styles End */
 
 /* Contact Me Styles Start */
+.contact-button {
+  background-color: var(--teal-blue);
+  text-align: center;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.contact {
+  display: block;
+  text-align: left;
+}
+
+#contact-form {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  border-right: 4px solid var(--section-header);
+  font-size: 4vw;
+  padding-bottom: 10px;
+  line-height: 1.1;
+  padding-left: 15px;
+  border-bottom: 4px solid var(--section-header);
+  width: 25%;
+}
+
+/* Resume Styles Start */
+.resume img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.resume h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+/* Resume Styles End */
+
+/* Footer Styles Start */
+footer {
+  background: var(--teal-blue);
+  display: flex;
+  height: 100px;
+  background-size: cover;
+  padding: 10px 10px;
+  margin-top: 20px;
+  text-align: right;
+  color: var(--primary-text-color);
+  display: block;
+  font-weight: lighter;
+  text-align: right;
+}
+
 .contact-info {
   display: flex;
   align-items: center;
@@ -250,41 +305,6 @@ header nav ul li a:hover  {
 
 .contact-info img {
   height: 50px;
-}
-
-.contact-button {
-  background-color: var(--teal-blue);
-}
-
-/* Resume Styles Start */
-.resume img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
-}
-
-.resume h3 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 45%;
-}
-/* Resume Styles End */
-
-/* Footer Styles Start */
-footer {
-  background: var(--teal-blue);
-  display: flex;
-  height: 100px;
-  background-size: cover;
-  padding: 10px 10px;
-  margin-top: 20px;
-  text-align: right;
-  color: var(--primary-text-color);
-  display: block;
-  font-weight: lighter;
-  text-align: right;
 }
 /* Footer Styles End */
 
