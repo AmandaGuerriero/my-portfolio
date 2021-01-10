@@ -40,6 +40,11 @@ header h1 a {
   font-size: 35px;
 }
 
+header a:hover {
+  text-decoration: none;
+  color: var(--pink-purple);
+}
+
 header a {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -61,24 +66,22 @@ header nav ul li {
   padding: 5px 20px;
 }
 
-header nav ul li:hover, header nav ul li a:hover  {
+header nav ul li:hover {
   font-weight: bold;
   background-color: var(--pink-purple);
   border-radius: 25%;
-  padding: 5px 10px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+header nav ul li a:hover  {
+  background-color: var(--pink-purple);
   text-decoration: none;
   color: var(--primary-text-color);
 }
 /* Header Styles End */
 
 /* Global Section Styles Start */
-/* h2 {
-  color: var(--section-header);
-  font-size: 65px;
-  text-align: right;
-  font-weight: normal;
-} */
-
 .page-section > h2 {
   border-right: none;
   border-bottom: 4px solid var(--section-header);
@@ -90,23 +93,7 @@ header nav ul li:hover, header nav ul li a:hover  {
 
 #contact {
   display: block;
-}
-
-.about-details {
-  width: 85%;
-  justify-content: flex-start;
-  font-size: 15px;
-  display: flex;
-}
-
-.about-details img {
-  height: 200px;
-  padding-left: 25px;
-}
-
-.about-details p {
-  padding-left: 10px;
-  padding-bottom: 20px;
+  width: 25%;
 }
 
 .page-wrapper {
@@ -142,6 +129,25 @@ header nav ul li:hover, header nav ul li a:hover  {
   margin-bottom: 20px;
 }
 /* Global Section Styles End */
+
+/* About Styles Start */
+.about-details {
+  width: 85%;
+  justify-content: flex-start;
+  font-size: 15px;
+  display: flex;
+}
+
+.about-details img {
+  height: 200px;
+  padding-left: 25px;
+}
+
+.about-details p {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+/* About Styles End */
 
 /* Grid Styles Start */
 .grid-container {
@@ -262,6 +268,7 @@ header nav ul li:hover, header nav ul li a:hover  {
   margin-right: auto;
   width: 45%;
 }
+/* Resume Styles End */
 
 /* Footer Styles Start */
 footer {
@@ -277,6 +284,7 @@ footer {
   font-weight: lighter;
   text-align: right;
 }
+/* Footer Styles End */
 
 /* Media Queries */
 /* MQ for screens smaller that 980px */
@@ -312,6 +320,11 @@ footer {
 
   .page-section p {
       text-align: left;
+  }
+
+  #contact {
+    display: block;
+    width: 100%;
   }
 
   .grid-container {

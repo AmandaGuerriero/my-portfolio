@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import Project from '../Project';
+import React from 'react';
 
 function Resume(props) {
     return (
-        <section class="page-section">
+        <section className="page-section">
             <h2>Resume</h2>
-            <div class="resume">
-                <a href="https://github.com/amandaguerriero/my-portfolio/raw/master/src/images/Resume.pdf"><img src="https://github.com/amandaguerriero/my-portfolio/raw/master/src/images/Resume.png"></img></a>
+            <div className="resume">
+                <a href="https://github.com/amandaguerriero/my-portfolio/raw/master/src/images/Resume.pdf"><img src="https://github.com/amandaguerriero/my-portfolio/raw/master/src/images/Resume.png" alt="Resume document thumbnail" /></a>
                 <h3><br />Click image above to download resume</h3>
             </div>
         </section>
