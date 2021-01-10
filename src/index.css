@@ -247,6 +247,21 @@ header nav ul li:hover {
   background-color: var(--teal-blue);
 }
 
+/* Resume Styles Start */
+.resume img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+.resume h3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
 /* Footer Styles Start */
 footer {
   background: var(--teal-blue);
@@ -261,7 +276,6 @@ footer {
   font-weight: lighter;
   text-align: right;
 }
-/* Contact Me Styles End */
 
 /* Media Queries */
 /* MQ for screens smaller that 980px */
@@ -290,10 +304,6 @@ footer {
       padding: 0px 0px;
   }
 
-  .hero {
-      height: 150px;
-  }
-
   .page-section > h2,
   .page-section > div {
       flex: 0 0 100%;
@@ -302,11 +312,14 @@ footer {
   .page-section p {
       text-align: left;
   }
+
+  .grid-container {
+    padding-left: unset;
+  }
 }
 /* MQ for screens smaller that 768px */
 @media screen and (max-width: 768px) {
-  .grid-item,
-  .grid-item:first-child {
+  .grid-item {
     grid-column: 1 / -1;
   }
 
@@ -314,13 +327,4 @@ footer {
     grid-auto-rows: minmax(200px, 1fr);
   }
 
-  .hero-banner {
-    justify-content: center;
-    text-align: center;
-  }
-
-  .contact address {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
