@@ -180,6 +180,8 @@ header nav ul li a:hover  {
 
 .grid-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: var(--pink-purple);
 }
 
 .grid-item div {
