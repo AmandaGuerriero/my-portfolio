@@ -28,7 +28,7 @@ const renderResume = (routerProps) => {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-          <NavLink to="/About" onClick={renderHome} activeStyle={{
+          <NavLink to="/" onClick={renderHome} activeStyle={{
               fontWeight: "bold",
               color: "#D7B9D5"
             }}>About</NavLink>
