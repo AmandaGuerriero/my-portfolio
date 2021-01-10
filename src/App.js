@@ -12,19 +12,19 @@ function App() {
     <Router>
         <Header />
         <Switch>
-          <Route exact path='/portfolio'>
+          <Route exact path='/my-portfolio/portfolio'>
             <Project />
           </Route>
-          <Route exact path='/contact'>
+          <Route exact path='/my-portfolio/contact'>
             <Contact />
           </Route>
-          <Route exact path='/resume'>
+          <Route exact path='/my-portfolio/resume'>
             <Resume />
           </Route>
-          <Route exact path='/'>
+          <Route exact path='/my-portfolio'>
             <About />
           </Route>
-          <Route exact path='/about'>
+          <Route exact path='/my-portfolio/about'>
             <About />
           </Route>
         </Switch>

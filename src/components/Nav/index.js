@@ -34,20 +34,20 @@ const renderResume = (routerProps) => {
             }}>About</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink to="/portfolio" onClick={renderProject} activeStyle={{
+          <NavLink to="/my-portfolio/portfolio" onClick={renderProject} activeStyle={{
               fontWeight: "bold",
               color: "#D7B9D5"
             }}
             >Portfolio</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink to="/contact" onClick={renderContact} activeStyle={{
+          <NavLink to="/my-portfolio/contact" onClick={renderContact} activeStyle={{
               fontWeight: "bold",
               color: "#D7B9D5"
             }}>Contact</NavLink>
           </li>
           <li className="mx-2">
-          <NavLink to="/resume" onClick={renderResume} activeStyle={{
+          <NavLink to="/my-portfolio/resume" onClick={renderResume} activeStyle={{
               fontWeight: "bold",
               color: "#D7B9D5"
             }}>Resume</NavLink>
