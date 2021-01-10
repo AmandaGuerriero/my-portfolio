@@ -28,8 +28,8 @@ function Contact() {
         e.preventDefault();
     }
     return (
-        <section>
-            <h1>Contact me</h1>
+        <section class="page-section" id="contact">
+            <h2>Contact Me</h2>
             <form id="contact-form" onSubmit={handleSubmit}>
              <div class="form-row">
                     <div class="form-group col-md-6">

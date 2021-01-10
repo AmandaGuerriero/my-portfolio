@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function Project(props) {
     return (
         <section class="page-section" id="work">
+            <h2>Portfolio</h2>
             <div class="grid-container">
                 <a href="http://bossy-bartender.herokuapp.com/" target="_blank" class="grid-item work-1">
                     <div>

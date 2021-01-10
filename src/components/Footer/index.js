@@ -12,8 +12,8 @@ function Footer(props) {
                         <a href="https://www.linkedin.com/in/amanda-guerriero-29377447/" target="_blank">Linkedin</a>
                     </li>
                 </ul>
+                <p>	&copy; Amanda Guerriero 2020  </p>
             </div>
-            <p>	&copy; Amanda Guerriero 2020  </p>
         </footer>
     );
 }
