@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import About from '../About';
 import Project from '../Project';
@@ -28,16 +28,29 @@ const renderResume = (routerProps) => {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-          <Link to="/" onClick={renderHome}>About</Link>
+          <NavLink to="/About" onClick={renderHome} activeStyle={{
+              fontWeight: "bold",
+              color: "#D7B9D5"
+            }}>About</NavLink>
           </li>
           <li className="mx-2">
-          <Link to="/portfolio" onClick={renderProject}>Portfolio</Link>
+          <NavLink to="/portfolio" onClick={renderProject} activeStyle={{
+              fontWeight: "bold",
+              color: "#D7B9D5"
+            }}
+            >Portfolio</NavLink>
           </li>
           <li className="mx-2">
-          <Link to="/contact" onClick={renderContact}>Contact</Link>
+          <NavLink to="/contact" onClick={renderContact} activeStyle={{
+              fontWeight: "bold",
+              color: "#D7B9D5"
+            }}>Contact</NavLink>
           </li>
           <li className="mx-2">
-          <Link to="/resume" onClick={renderResume}>Resume</Link>
+          <NavLink to="/resume" onClick={renderResume} activeStyle={{
+              fontWeight: "bold",
+              color: "#D7B9D5"
+            }}>Resume</NavLink>
           </li>
         </ul>
       </nav>
