@@ -12,7 +12,7 @@ function Footer(props) {
                         <a href="https://www.linkedin.com/in/amanda-guerriero-29377447/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/AmandaGuerriero/my-portfolio/master/src/images/linkedin-icon.png" alt="Linked In icon"></img></a>
                     </li>
                 </ul>
-                <p>	&copy; Amanda Guerriero 2020  </p>
+                <p>	&copy; Amanda Guerriero 2021  </p>
             </div>
         </footer>
     );
