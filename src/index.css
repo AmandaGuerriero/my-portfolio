@@ -190,28 +190,29 @@ header nav ul li a:hover  {
 /* Grid Images */
 
 .grid-item.work-1 {
-  background-image: url(./images/Bossy-Bartender.png);
+  background-image: url(./images/wanderpro.png);
 } 
 
 .grid-item.work-2 {
-  background-image: url(./images/Spaced-Out.png);
+  background-image: url(./images/Bossy-Bartender.png);
 } 
 
 .grid-item.work-3 {
+  background-image: url(./images/Spaced-Out.png);
+} 
+
+.grid-item.work-4 {
   background-image: url(./images/weather.png);
 } 
 
-.grid-item.work-4{
+.grid-item.work-5{
   background-image: url(./images/taskmaster.png);
 } 
 
-.grid-item.work-5 {
+.grid-item.work-6 {
   background-image: url(./images/password.png);
 }
 
-.grid-item.work-6 {
-  background-image: url(./images/team-profile.png);
-}
 /* Grid Styles End */
 
 /* Contact Me Styles Start */
